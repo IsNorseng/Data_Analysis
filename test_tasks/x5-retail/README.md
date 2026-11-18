@@ -2,7 +2,6 @@
 
 - [Открыть анализ с графиками](notebooks/01_FMCG_Анализ_продаж.ipynb) — расчёты, ABC-анализ и детализация результатов. Графики и выводы уже сохранены.
 - [Скачать Excel-отчёт](FMCG_Анализ_продаж.xlsx?raw=1) — обзор показателей и таблица товаров с фильтрами.
-- [Открыть notebook Dask](notebooks/02_Dask_Загрузка_данных.ipynb) — объединение CSV и код загрузки в MS SQL Server.
 
 Анализ продаж, маржинальности и товарных потерь в FMCG. Данные за **октябрь–декабрь 2023 года** охватывают **500 SKU, 8 категорий и 100 магазинов**.
 
@@ -32,8 +31,8 @@
 Для повторного расчёта установите Python 3.12, распакуйте проект и выполните из его папки
 
 ```bash
-python -m pip install jupyterlab pandas numpy matplotlib jinja2 "dask[dataframe]" pyarrow "SQLAlchemy>=2.0.9,<3" pyodbc
+python -m pip install jupyterlab pandas numpy matplotlib jinja2
 python -m jupyterlab
 ```
 
-Откройте нужный notebook и выберите **Run All**. [Исходный CSV](data/sales_data.csv) включён в проект. Во втором notebook запись в SQL Server управляется `RUN_SQL = False`. Код полной замены таблицы приведён целиком, проверка на реальном SQL Server не выполнялась.
+Откройте notebook анализа продаж и выберите **Run All**. [Исходный CSV](data/sales_data.csv) включён в проект.
