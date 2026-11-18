@@ -4,7 +4,7 @@
 
 ## Тестовые задания
 
-- [Продажи и товарные потери FMCG](test_tasks/x5-retail) - тестовое задание для X5 Retail Group. Анализ маржинальности и потерь, ABC-анализ, сводки Power Query в Excel и Jupyter Notebook с Pandas и Dask.
+- [Продажи и товарные потери FMCG](test_tasks/x5-retail) - тестовое задание для X5 Retail Group. Готовый Excel-отчёт, сохранённые графики и выводы в двух Jupyter Notebook. Основные результаты видны на странице кейса.
 
 ## Состав репозитория
 
