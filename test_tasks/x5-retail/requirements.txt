@@ -1,0 +1,10 @@
+numpy>=1.26,<3
+pandas>=2.2,<4
+dask[dataframe]>=2025.1,<2027
+pyarrow>=16,<27
+SQLAlchemy>=2.0.9,<3
+pyodbc>=5,<6
+jupyterlab>=4,<5
+ipykernel>=6,<8
+matplotlib>=3.9,<4
+Jinja2>=3.1,<4

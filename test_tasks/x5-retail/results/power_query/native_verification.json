@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "prepared_rows": 39900,
+  "weekly_rows": 14,
+  "monthly_rows": 3,
+  "period_fields_match_exactly": true,
+  "numeric_cells_compared": 88,
+  "revenue_cells_match_exactly": true,
+  "maximum_numeric_absolute_difference": "5E-14",
+  "numeric_absolute_tolerance": "0.0000000001",
+  "revenue_total": "6770833903.39"
+}

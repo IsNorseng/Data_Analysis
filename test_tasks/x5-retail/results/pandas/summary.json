@@ -1,0 +1,46 @@
+{
+  "date_min": "2023-10-01",
+  "date_max": "2023-12-31",
+  "store_count": 100,
+  "sku_count": 500,
+  "category_count": 8,
+  "flagged_sku_count": 460,
+  "low_turnover_category_count": 0,
+  "thresholds": {
+    "losses_rate_pct_gt": 8.0,
+    "revenue_gt": 500000,
+    "turnover_lt": 1.5
+  },
+  "totals": {
+    "quantity_sold": 18917311,
+    "quantity_purchased": 21853762,
+    "losses": 1981236,
+    "revenue": 6770833903.39,
+    "cogs": 5209417460.65,
+    "gross_profit": 1561416442.74,
+    "purchase_value": 6023495214.42,
+    "losses_value": 546337470.04,
+    "gross_margin_pct": 23.06091782813096,
+    "losses_rate_pct": 9.06588073943516,
+    "losses_value_rate_pct": 9.070107148621792,
+    "markup_pct": 29.972956756381276,
+    "turnover": 1.5873557866461747
+  },
+  "source_file": "sales_data.csv",
+  "cleaning": {
+    "input_rows": 40020,
+    "exact_duplicate_rows": 20,
+    "missing_or_nonnumeric_price_rows": 100,
+    "invalid_price_rows": 100,
+    "negative_quantity_rows": 50,
+    "missing_or_invalid_quantity_rows": 0,
+    "invalid_label_rows": 0,
+    "invalid_date_rows": 0,
+    "invalid_rows_after_deduplication": 150,
+    "clean_rows": 39850,
+    "removed_rows": 170,
+    "retained_repeated_date_store_product_rows": 180,
+    "sold_above_purchased_rows": 16676,
+    "losses_above_purchased_rows": 0
+  }
+}
